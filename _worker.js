@@ -205,7 +205,7 @@ const htmlContent = `
                 font-size: 0.95em;
             }
             .date-list li strong {
-                font-size: 1.1em;
+                    font-size: 1.1em;
             }
             .santa-tracker {
                 bottom: 20px;
@@ -223,7 +223,7 @@ const htmlContent = `
 <body>
     <div class="container">
         <div class="logo-header">
-            <!-- UPDATED: Using a relative path now. Make sure 'logo.jpg' is in your repository root! -->
+            <!-- FIXED: The image source is now set to the confirmed file name, /logo.jpg -->
             <img src="/logo.jpg" alt="Thornbury Round Table Logo">
         </div>
         <h1>Christmas Sleigh Dates</h1>
