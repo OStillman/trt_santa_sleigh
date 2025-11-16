@@ -223,8 +223,8 @@ const htmlContent = `
 <body>
     <div class="container">
         <div class="logo-header">
-            <!-- Logo URL has been updated to use the temporarily hosted image -->
-            <img src="https://imagedelivery.net/ghlK2Yx2d4Rcnb1jP8x8pg/b621532f-48d1-450f-6893-b6d80d22df00/public" alt="Thornbury Round Table Logo">
+            <!-- UPDATED: Using a relative path now. Make sure 'logo.jpg' is in your repository root! -->
+            <img src="/logo.jpg" alt="Thornbury Round Table Logo">
         </div>
         <h1>Christmas Sleigh Dates</h1>
         <ul class="date-list">
