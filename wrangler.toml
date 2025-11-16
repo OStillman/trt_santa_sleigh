@@ -1,0 +1,7 @@
+name = "sleigh-dates-worker" # Give your project a unique name
+main = "_worker.js"           # Points to your Worker file
+compatibility_date = "2024-10-27" # Use today's date or later
+
+# Since this is a simple Worker, you generally won't need to specify a
+# 'site' configuration unless you plan on adding static assets later.
+# For now, this is all you need!
